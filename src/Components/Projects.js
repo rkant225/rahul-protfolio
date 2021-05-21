@@ -3,7 +3,11 @@ import profilePic from '../Assets/profile-pic-two.jpeg'
 
 const Projects = () => {
     return (
+        <>
+        <a name="PROJECTS"></a>
         <div className="project-section">
+            
+
             <div className="projects-section-header">My Projects</div>
 
             <div className="projects-container">
@@ -116,6 +120,7 @@ const Projects = () => {
                 
             </div>
         </div>
+        </>
     )
 }
 

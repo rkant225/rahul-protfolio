@@ -32,23 +32,31 @@ const NavBar = () => {
                     <li className="main-navigation-list-item" onClick={handleHamburgerMenuClick}>Home</li>
                 </a>
 
-                <a href="#">
+                <a href="#ABOUT">
                     <li className="main-navigation-list-item" onClick={handleHamburgerMenuClick}>About</li>
                 </a>
 
-                <a href="#">
+                <a href="#PROJECTS">
                     <li className="main-navigation-list-item" onClick={handleHamburgerMenuClick}>Projects</li>
                 </a>
 
-                <a href="#">
-                    <li className="main-navigation-list-item" onClick={handleHamburgerMenuClick}>Skils</li>
+                <a href="#SKILLS">
+                    <li className="main-navigation-list-item" onClick={handleHamburgerMenuClick}>Skills</li>
                 </a>
 
-                <a href="#">
+                <a href="#CONTACT">
                     <li className="main-navigation-list-item" onClick={handleHamburgerMenuClick}>Contact</li>
                 </a>
 
-                <li className="main-navigation-list-item" onClick={handleThemeButtonClick}>Theme</li>
+                <vr style={{borderRight : '2px solid white', margin : '1rem'}}/>
+
+                {/* <li className="main-navigation-list-item" onClick={handleThemeButtonClick}>Theme</li> */}
+                <li style={{textAlign : 'center', border : '1.5px solid white', borderRadius : '50%', padding : '.6rem', cursor : 'pointer'}} className="" onClick={handleThemeButtonClick}>
+                        <i class="fa fa-sun-o"></i>/
+                        <i class="fa fa-moon-o"></i>
+                        <br/>
+                        <span style={{fontSize : '.8rem'}}>Theme</span>
+                </li>
 
             </ul>
 

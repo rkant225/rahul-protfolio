@@ -20,7 +20,7 @@ const ThemeSelectorModal = (props) => {
                 <div className="color orange" onClick={()=>{handleThemeColorChange('#ff7500')}}>Orange</div>
                 <div className="color navy-blue" onClick={()=>{handleThemeColorChange('#4ca2c8')}}>Navy Blue</div>
                 <div className="color blue" onClick={()=>{handleThemeColorChange('#8000ff')}}>Blue</div>
-                <div className="color dark" onClick={()=>{handleThemeColorChange('rgb(190,190,190,.3)')}}>Dark</div>
+                <div className="color dark" onClick={()=>{handleThemeColorChange('rgb(120,120,120)')}}>Dark</div>
             </div>
         </div>
     )
