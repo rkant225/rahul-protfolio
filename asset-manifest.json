@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rahul-protfolio/static/css/main.d70d8c32.chunk.css",
+    "main.js": "/rahul-protfolio/static/js/main.9196921f.chunk.js",
+    "main.js.map": "/rahul-protfolio/static/js/main.9196921f.chunk.js.map",
+    "runtime-main.js": "/rahul-protfolio/static/js/runtime-main.d774be36.js",
+    "runtime-main.js.map": "/rahul-protfolio/static/js/runtime-main.d774be36.js.map",
+    "static/js/2.344fa439.chunk.js": "/rahul-protfolio/static/js/2.344fa439.chunk.js",
+    "static/js/2.344fa439.chunk.js.map": "/rahul-protfolio/static/js/2.344fa439.chunk.js.map",
+    "index.html": "/rahul-protfolio/index.html",
+    "static/css/main.d70d8c32.chunk.css.map": "/rahul-protfolio/static/css/main.d70d8c32.chunk.css.map",
+    "static/js/2.344fa439.chunk.js.LICENSE.txt": "/rahul-protfolio/static/js/2.344fa439.chunk.js.LICENSE.txt",
+    "static/media/profile-pic-two.0847a8d5.jpeg": "/rahul-protfolio/static/media/profile-pic-two.0847a8d5.jpeg",
+    "static/media/App.css": "/rahul-protfolio/static/media/user-cover-pic.bfa93aaa.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d774be36.js",
+    "static/js/2.344fa439.chunk.js",
+    "static/css/main.d70d8c32.chunk.css",
+    "static/js/main.9196921f.chunk.js"
+  ]
+}
