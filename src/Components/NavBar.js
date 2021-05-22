@@ -44,6 +44,10 @@ const NavBar = () => {
                     <li className="main-navigation-list-item" onClick={handleHamburgerMenuClick}>Skills</li>
                 </a>
 
+                <a href="#PEERS">
+                    <li className="main-navigation-list-item" onClick={handleHamburgerMenuClick}>My Peers</li>
+                </a>
+
                 <a href="#CONTACT">
                     <li className="main-navigation-list-item" onClick={handleHamburgerMenuClick}>Contact</li>
                 </a>

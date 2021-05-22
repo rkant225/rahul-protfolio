@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from '../Assets/profile-pic-two.jpeg'
+import profilePic from '../Assets/rahul.png'
 import Resume from '../Assets/Resume.pdf'
 
 const About = () => {

@@ -204,7 +204,7 @@ html{
   padding: .5vw;
   background-color: var(--primaryColor);
   font-size: 1.5rem;
-  border-radius: 10px;
+  border-radius: 3px;
   transition: .4s ease;
 }
 .btn-know-more:hover{
@@ -280,7 +280,7 @@ html{
   padding: .5vw;
   background-color: var(--primaryColor);
   font-size: 1.5rem;
-  border-radius: 10px;
+  border-radius: 3px;
   transition: .4s ease;
   margin-left: auto;
 }
@@ -294,6 +294,7 @@ html{
 /* Projects Section Styling */
 .project-section{
   background-color: white;
+  padding-bottom: 4rem;
 }
 
 .projects-section-header{
@@ -343,10 +344,8 @@ html{
   margin-top: 2rem;
   transition: .3s ease;
   box-shadow: 0px 0px 5px 2px var(--primaryColor),
-              0px 0px 7px 4px var(--primaryColor),
-              0px 0px 9px 6px var(--primaryColor),
-              0px 0px 11px 6px var(--primaryColor),
-              0px 0px 13px 6px var(--primaryColor);
+              0px 0px 7px 4px var(--primaryColor);
+              
 }
 
 .project:hover{
@@ -381,19 +380,215 @@ html{
   font-size: 1.3rem;
   transition: .4s ease;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 3px;
   cursor: pointer;
 }
 .btn-view-project:hover{
   background-color: transparent;
 }
 
+.my-skills-header{
+  position: relative;
+  width: max-content;
+  margin: 4.5rem auto;
+  padding-top: 1rem;
+  font-size: 2.8rem;
+}
+.my-skills-header::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -18%;
+  left: 0;
+  border-bottom: 2px solid white;
+}
+.my-skills-header::after{
+  content: "what i know";
+  position: absolute;
+  top: 99%;
+  left: 18%;
+  width: max-content;
+  padding: 0 .2rem 0 .2rem;
+  /* margin: auto; */
+  font-size: 1.2rem;
+  background-color: black;
+  color: var(--primaryColor);
+}
 
 
 
+/* Skills Section Styling */
+.skills-container{
+  padding: 1rem;
+}
+.my-skills-left-right-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.my-skills-description-container{
+  width: 60%;
+  padding-bottom: 1rem;
+}
+.my-skills-percentage-container{
+  width: 30%;
+}
 
+.my-skills-description-header{
+  font-size: 1.3rem;
+  margin-bottom: .8rem;
+}
+.my-skills-description-header span{
+  color: var(--primaryColor);
+}
 
+.my-skills-description-text{
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.my-skills-description-text p{
+  margin-bottom: .5rem;
+}
+
+.technologies{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bar{
+  position: relative;
+  margin: .5rem 0;
+  width: 100%;
+  height: 5px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.bar::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: var(--percentage);
+  background-color: var(--primaryColor);
+  border-radius: 10px;
+}
+
+/* My Peers Styling */
+.my-peers-container{
+  background-color: white;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.my-peers-header{
+  position: relative;
+  width: max-content;
+  margin: 4.5rem auto;
+  padding-top: 1rem;
+  font-size: 2.8rem;
+  color: black;
+}
+.my-peers-header::before{
+  content: "";
+  position: absolute;
+  width: 130%;
+  bottom: -14%;
+  left: -14%;
+  border-bottom: 2px solid black;
+}
+.my-peers-header::after{
+  content: "whome i work with";
+  position: absolute;
+  top: 95%;
+  left: 5%;
+  width: max-content;
+  padding: 0 .2rem 0 .2rem;
+  /* margin: auto; */
+  font-size: 1.2rem;
+  background-color: white;
+  color: var(--primaryColor);
+}
+
+.peers-carousel{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  overflow: auto;
+  white-space: nowrap;
+  width: 60%;
+  margin: auto;
+  scroll-behavior: smooth;
+  transition: 1s ease;
+
+}
+.peers-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.peer-card{
+  text-align: center;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 15rem;
+  margin: 1rem;
+  display: inline-block;
+  box-shadow: 0px 0px 5px 2px var(--primaryColor),
+              0px 0px 7px 4px var(--primaryColor);
+}
+
+.peer-image{
+  height: 4rem;
+  width: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--primaryColor);
+  margin-bottom: 1rem;
+}
+
+.peer-name{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--primaryColor);
+}
+
+.peer-description{
+  font-size: 1rem;
+  white-space: normal;
+}
+.fa-arrow-right{
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+.fa-arrow-left{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.fa-arrow-right, .fa-arrow-left{
+  color: var(--primaryColor);
+  font-size: 3rem;
+  border: 2px solid var(--primaryColor);
+  padding: 1rem;
+  border-radius: 50%;
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.fa-arrow-right:hover, .fa-arrow-left:hover{
+  background-color: rgb(50,50,50,.7);
+}
 
 
 
@@ -462,5 +657,24 @@ html{
   /* Project section styling */
   .project{
     width: 100%;
+  }
+
+  /* My Skills section styling */
+  .my-skills-description-container{
+    width: 100%;
+  }
+  .my-skills-percentage-container{
+    width: 100%;
+  }
+
+  /* Peers styling section */
+  .peers-carousel{
+    width: 100%;
+  }
+  .peer-card{
+    width: 70%;
+  }
+  .fa-arrow-right, .fa-arrow-left{
+    display: none;
   }
 }
