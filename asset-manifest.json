@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/rahul-protfolio/static/css/main.4906415f.chunk.css",
-    "main.js": "/rahul-protfolio/static/js/main.d1686198.chunk.js",
-    "main.js.map": "/rahul-protfolio/static/js/main.d1686198.chunk.js.map",
+    "main.css": "/rahul-protfolio/static/css/main.f250aa0a.chunk.css",
+    "main.js": "/rahul-protfolio/static/js/main.91ea79b9.chunk.js",
+    "main.js.map": "/rahul-protfolio/static/js/main.91ea79b9.chunk.js.map",
     "runtime-main.js": "/rahul-protfolio/static/js/runtime-main.d774be36.js",
     "runtime-main.js.map": "/rahul-protfolio/static/js/runtime-main.d774be36.js.map",
     "static/js/2.0ebe5d51.chunk.js": "/rahul-protfolio/static/js/2.0ebe5d51.chunk.js",
     "static/js/2.0ebe5d51.chunk.js.map": "/rahul-protfolio/static/js/2.0ebe5d51.chunk.js.map",
     "index.html": "/rahul-protfolio/index.html",
-    "static/css/main.4906415f.chunk.css.map": "/rahul-protfolio/static/css/main.4906415f.chunk.css.map",
+    "static/css/main.f250aa0a.chunk.css.map": "/rahul-protfolio/static/css/main.f250aa0a.chunk.css.map",
     "static/js/2.0ebe5d51.chunk.js.LICENSE.txt": "/rahul-protfolio/static/js/2.0ebe5d51.chunk.js.LICENSE.txt",
     "static/media/Resume.5880c86f.pdf": "/rahul-protfolio/static/media/Resume.5880c86f.pdf",
+    "static/media/deep.193199ce.png": "/rahul-protfolio/static/media/deep.193199ce.png",
+    "static/media/dheeraj.8bc14369.png": "/rahul-protfolio/static/media/dheeraj.8bc14369.png",
+    "static/media/jyoti.d23103f3.png": "/rahul-protfolio/static/media/jyoti.d23103f3.png",
+    "static/media/paritosh.4b0ec1d1.png": "/rahul-protfolio/static/media/paritosh.4b0ec1d1.png",
     "static/media/profile-pic-two.0847a8d5.jpeg": "/rahul-protfolio/static/media/profile-pic-two.0847a8d5.jpeg",
+    "static/media/rahul.5fcdc3bd.png": "/rahul-protfolio/static/media/rahul.5fcdc3bd.png",
+    "static/media/rohit.1ce6511c.png": "/rahul-protfolio/static/media/rohit.1ce6511c.png",
+    "static/media/subhodeep.8055ddc0.png": "/rahul-protfolio/static/media/subhodeep.8055ddc0.png",
     "static/media/App.css": "/rahul-protfolio/static/media/user-cover-pic.bfa93aaa.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.d774be36.js",
     "static/js/2.0ebe5d51.chunk.js",
-    "static/css/main.4906415f.chunk.css",
-    "static/js/main.d1686198.chunk.js"
+    "static/css/main.f250aa0a.chunk.css",
+    "static/js/main.91ea79b9.chunk.js"
   ]
 }
