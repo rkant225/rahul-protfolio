@@ -9,11 +9,14 @@ import Peers from './Components/Peers';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import handleScroll from './Utilities/handleScroll';
+import initilizeAutoTyping from './Utilities/autoTypeText';
+
 
 function App() {
 
   useEffect(()=>{
     window.addEventListener('scroll', handleScroll);
+    window.addEventListener('load', initilizeAutoTyping)
   }, []);
 
   return (

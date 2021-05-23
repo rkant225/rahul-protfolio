@@ -208,26 +208,21 @@ html{
 }
 
 .home-text-content{
+  width: 45%;
   /* margin: auto 0 auto 5rem; */
 }
 
-.intro-qr-code{
-  /* margin: auto 0 auto 5rem; */
-  /* box-shadow: 0 0 4px 2px var(--primaryColor),
-              0 0 6px 5px var(--primaryColor),
-              0 0 8px 7px var(--primaryColor),
-              0 0 10px 9px var(--primaryColor); */
-  /* animation-name: animate-bg-color;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate; */
-}
+
 
 .intro-qr-code-container{
   position: relative;
   z-index: 1;
 }
+
+.intro-qr-code{
+  height: 25rem;
+}
+
 .intro-qr-code-container::before{
   content: "";
   position: absolute;
@@ -331,8 +326,8 @@ html{
   width: 30%;
 }
 .profile-pic{
-  height: 25vw;
-  width: 25vw;
+  height: 23rem;
+  width: 23rem;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -460,6 +455,10 @@ html{
   margin-bottom: 1rem;
 }
 
+.project-description a{
+  color: var(--primaryColor);
+}
+
 .btn-view-project{
   border: 2px solid var(--primaryColor);
   width: max-content;
@@ -555,6 +554,14 @@ html{
 }
 .duration{
   font-size: 1.2rem;
+}
+
+.ask-me-about{
+  font-size: 2rem;
+}
+
+.ask-me-about span{
+  color: var(--primaryColor);
 }
 
 .technologies{
@@ -834,9 +841,7 @@ html{
     background-position-x: 150vw;
   }
 
-  .intro-qr-code{
-    display: none;
-  }
+ 
 
   .btn-know-more{
     margin-top: 1rem;
@@ -878,9 +883,22 @@ html{
     content: '\f00d';
   }
 
+  .home-container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
   .home-text-content{
-    margin: auto 0 auto 2rem;
+    /* margin: auto 0 auto 2rem; */
+    /* margin: auto 0 auto 2rem; */
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .intro-qr-code{
+    /* display: none; */
+    height: 15rem;
   }
 
   .text-1{
@@ -898,6 +916,15 @@ html{
     width: 100%;
   }
 
+  .profile-pic-container{
+    width: 50%;
+  }
+
+  .profile-pic{
+    height: 10rem;
+    width: 10rem;
+  }
+
   /* Project section styling */
   .project{
     width: 100%;
@@ -909,6 +936,10 @@ html{
   }
   .my-skills-percentage-container{
     width: 100%;
+  }
+
+  .ask-me-about{
+    font-size: 1.6rem;
   }
 
   /* Peers styling section */

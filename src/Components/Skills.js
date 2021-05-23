@@ -24,6 +24,10 @@ const Skills = () => {
                                 <div className="duration">Jun-2020 to Present</div>
                             </div>
                         </div>
+
+                        <div className="ask-me-about">
+                            Ask me about <span className="typing-3"></span>
+                        </div>
                     </div>
                     <div className="my-skills-percentage-container">
                         <div className="technologies">
