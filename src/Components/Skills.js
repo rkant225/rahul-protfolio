@@ -11,10 +11,18 @@ const Skills = () => {
                     <div className="my-skills-description-container">
                         <div className="my-skills-description-header">My creative skills <span>and experience.</span></div>
                         <div className="my-skills-description-text">
-                            <p>I have completed my Masters and Bachlors in Electronics and Communication Engineering (ECE). I loved working on electronics projects mostly programming the Arduino and Raspberry-Pi boards. I have created number of projects during my graduation, few of them are Line following robot, Visitor counter, System to controll home applinces wirelessly using Wi-Fi, Wi-Fi controlled Robo Car and many more.</p>
-                            <p>After my graduation I got placed in Cognizant Technology Solutions and started my career in field of IT in Dec-2017. Here my first project was based on .Net MVC and we used React JS as a view for our application. From here only I got intrest in front-end Technology and started exploring this field much deeper. After 2 years this project was over and I was mapped to new project and basicly it was a Web-Application testing project. In this project I came to know about Selenium Framework which is used to automate the web-app testing with predefined test-cases.</p>
-                            <p>After 2.4 years I got oppurtinity to work in Infosys Ltd. as React JS developer, And I joined Infy in Jun-2020. Here my first project was based on React JS. My responsibility was to designe responsive UI with React JS and Material UI and API interigation. This project went live in Nov-2020 and it's in production now. After this project I was mapped to new React based project and currently I am working on it and learning new stuff along the way.</p>
-                            <p>Apart from my professional work, I started learning new tech-stacks such as Node JS, Express JS, Mongo DB, Python and created few projects based on it.</p>
+                            I love javascript and currently I am working on React JS. In my current organization I've built a ReactJS based web-application for our client and it went liva last month. Apart from this I am exploring other javascript Framework/Libreries as well such as Angular JS, Vue JS. I have also worked on Node JS, Express JS, Mongo DB while building my personal projects and I am lerning them as well. I have basic knowledge of python and C# as well.
+                        </div>
+
+                        <div className="experience-container">
+                            <div className="experience">
+                                <div className="company">Cognizant Technology Solutions</div>
+                                <div className="duration">Dec-2017 to Apr-2020</div>
+                            </div>
+                            <div className="experience">
+                                <div className="company">Infosys Ltd.</div>
+                                <div className="duration">Jun-2020 to Present</div>
+                            </div>
                         </div>
                     </div>
                     <div className="my-skills-percentage-container">
