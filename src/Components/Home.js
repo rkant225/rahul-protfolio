@@ -24,7 +24,7 @@ const Home = () => {
             </div> */}
 
             <div title="Top" className="btn-scroll-top" onClick={()=>{window.scrollTo(0,0)}}>
-                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                <i className="fa fa-arrow-up" aria-hidden="true"></i>
             </div>
         </div>
     )

@@ -14,7 +14,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-border-all" aria-hidden="true"></i>
+                        <i className="fa fa-border-all" aria-hidden="true"></i>
                     </div>
                     
                     <div className="project-name">
@@ -30,7 +30,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-syringe" aria-hidden="true"></i>
+                        <i className="fa fa-syringe" aria-hidden="true"></i>
                     </div>
                     <div className="project-name">
                         Covid-19 Vaccination
@@ -45,7 +45,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-dog" aria-hidden="true"></i>
+                        <i className="fa fa-dog" aria-hidden="true"></i>
                     </div>
                     <div className="project-name">
                         Animations
@@ -60,7 +60,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-map-marked-alt" aria-hidden="true"></i>
+                        <i className="fa fa-map-marked-alt" aria-hidden="true"></i>
                     </div>
                     <div className="project-name">
                         PlaceBook
@@ -76,7 +76,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-server" aria-hidden="true"></i>
+                        <i className="fa fa-server" aria-hidden="true"></i>
                     </div>
                     <div className="project-name">
                         PlaceBook(API)
@@ -91,7 +91,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-comments" aria-hidden="true"></i>
+                        <i className="fa fa-comments" aria-hidden="true"></i>
                     </div>
                     <div className="project-name">
                         Feedback Cllection App
@@ -106,7 +106,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-disease" aria-hidden="true"></i>
+                        <i className="fa fa-disease" aria-hidden="true"></i>
                     </div>
                     <div className="project-name">
                         Covid-19 tracker(india)
@@ -121,7 +121,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-viruses" aria-hidden="true"></i>
+                        <i className="fa fa-viruses" aria-hidden="true"></i>
                     </div>
                     <div className="project-name">
                         Covid-19 tracker(world)
@@ -136,7 +136,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-utensils" aria-hidden="true"></i>
+                        <i className="fa fa-utensils" aria-hidden="true"></i>
                     </div>
                     <div className="project-name">
                         Restaurant
@@ -151,7 +151,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-sign-in-alt" aria-hidden="true"></i>
+                        <i className="fa fa-sign-in-alt" aria-hidden="true"></i>
                     </div>
                     <div className="project-name">
                         Redux JS
@@ -166,7 +166,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-users-cog" aria-hidden="true"></i>
+                        <i className="fa fa-users-cog" aria-hidden="true"></i>
                     </div>
                     <div className="project-name">
                         Manage Customer
@@ -175,6 +175,21 @@ const Projects = () => {
                         I have created this App to manage the customer for my own shop. I have created frontend as well as backend for this app. React JS, Node JS, Material-UI.
                     </div>
                     <a href="http://customer-mgmt-sys-frontend.herokuapp.com/customer" target="_blank">
+                        <div className="btn-view-project">View</div>
+                    </a>
+                </div>
+                
+                <div className="project">
+                    <div className="project-icon">
+                        <i class="fa fa-cat"></i>
+                    </div>
+                    <div className="project-name">
+                        Tom & Jerry
+                    </div>
+                    <div className="project-description">
+                        I have created this App to manage the customer for my own shop. I have created frontend as well as backend for this app. React JS, Node JS, Material-UI.
+                    </div>
+                    <a href="https://rkant225.github.io/tom-and-jerry/" target="_blank">
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>

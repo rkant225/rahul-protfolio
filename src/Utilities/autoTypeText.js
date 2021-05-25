@@ -18,6 +18,32 @@ const initilizeAutoTyping =()=>{
     };
     
     var aa = new window.Typed('.typing-3', options);
+
+
+
+    window.$('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:5,
+        nav:false,
+        dots : false,
+        dotsEach : false,
+        autoplay : true,
+        autoplayTimeout : 2000,
+        autoplayHoverPause : true,
+        center : true,
+        // autoWidth: true,
+        responsive:{
+            0:{
+                items:1.2
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
       
 }
 

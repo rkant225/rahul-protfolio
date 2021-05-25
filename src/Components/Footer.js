@@ -7,7 +7,7 @@ const Footer = () => {
                Creted by <span>Rahul Singh</span>
             </div>
             <div className="copyright">
-                <i class="fa fa-copyright" aria-hidden="true"></i> copyright All Right Reserved.
+                <i className="fa fa-copyright" aria-hidden="true"></i> copyright All Right Reserved.
             </div>
         </div>
     )

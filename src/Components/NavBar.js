@@ -52,19 +52,19 @@ const NavBar = () => {
                     <li className="main-navigation-list-item" onClick={handleHamburgerMenuClick}>Contact</li>
                 </a>
 
-                <vr style={{borderRight : '2px solid white', margin : '1rem'}}/>
+                <div style={{borderRight : '2px solid white', margin : '1rem'}}></div>
 
                 {/* <li className="main-navigation-list-item" onClick={handleThemeButtonClick}>Theme</li> */}
                 <li style={{textAlign : 'center', border : '1.5px solid white', borderRadius : '50%', padding : '.6rem', cursor : 'pointer'}} className="" onClick={handleThemeButtonClick}>
-                        <i class="fa fa-sun-o"></i>/
-                        <i class="fa fa-moon-o"></i>
-                        <br/>
-                        <span style={{fontSize : '.8rem'}}>Theme</span>
+                    <i className="fa fa-sun-o"></i>/
+                    <i className="fa fa-moon-o"></i>
+                    <br/>
+                    <span style={{fontSize : '.8rem'}}>Theme</span>
                 </li>
 
             </ul>
 
-            <i class="fa fa-bars" aria-hidden="true" onClick={handleHamburgerMenuClick}></i>
+            <i className="fa fa-bars" aria-hidden="true" onClick={handleHamburgerMenuClick}></i>
 
             {isThemeSelectorOpen && <ThemeSelectorModal onClose={()=>{setIsThemeSelectorOpen(false)}}/>}
         </nav>

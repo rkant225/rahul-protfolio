@@ -18,10 +18,10 @@ const Contact = () => {
                         </div>
 
                         <div className="all-contact-methods">
-                            
+
                             <a href="https://www.linkedin.com/in/rahul-singh-364830a4/" target="_blank">
                                 <div className="contact-method-container">
-                                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                                    <i className="fa fa-user-o" aria-hidden="true"></i>
                                     <div className="contact-me-field-container">
                                         <div className="contact-me-key">Name</div>
                                         <div className="contact-me-value">Rahul Singh</div>
@@ -31,7 +31,7 @@ const Contact = () => {
 
                             <a href="mailto:rkant225@gmail.com" target="_blank">
                                 <div className="contact-method-container">
-                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <i className="fa fa-envelope-o" aria-hidden="true"></i>
                                     <div className="contact-me-field-container">
                                         <div className="contact-me-key">E-Mail</div>
                                         <div className="contact-me-value">rkant225@gmail.com</div>
@@ -41,7 +41,7 @@ const Contact = () => {
 
                             <a href="tel:+919876416884" target="_blank">
                                 <div className="contact-method-container">
-                                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                                    <i className="fa fa-mobile" aria-hidden="true"></i>
                                     <div className="contact-me-field-container">
                                         <div className="contact-me-key">Contact no.</div>
                                         <div className="contact-me-value">+91-9876416884</div>
@@ -51,7 +51,7 @@ const Contact = () => {
 
                             <a href="https://api.whatsapp.com/send?phone=919876416884&text=Hi Rahul...!!!" target="_blank">
                                 <div className="contact-method-container">
-                                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                    <i className="fa fa-whatsapp" aria-hidden="true"></i>
                                     <div className="contact-me-field-container">
                                         <div className="contact-me-key">Whatsapp no.</div>
                                         <div className="contact-me-value">+91-9876416884</div>
@@ -61,7 +61,7 @@ const Contact = () => {
 
                             <a href="https://github.com/rkant225" target="_blank">
                                 <div className="contact-method-container">
-                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                    <i className="fa fa-github" aria-hidden="true"></i>
                                     <div className="contact-me-field-container">
                                         <div className="contact-me-key">GitHub</div>
                                         <div className="contact-me-value">@rkant225</div>
