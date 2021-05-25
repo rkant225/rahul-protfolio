@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rahul-protfolio/static/css/main.b8f4fe6d.chunk.css",
+    "main.css": "/rahul-protfolio/static/css/main.6be741b6.chunk.css",
     "main.js": "/rahul-protfolio/static/js/main.7a50c5fa.chunk.js",
     "main.js.map": "/rahul-protfolio/static/js/main.7a50c5fa.chunk.js.map",
     "runtime-main.js": "/rahul-protfolio/static/js/runtime-main.d774be36.js",
@@ -8,7 +8,7 @@
     "static/js/2.f5beab20.chunk.js": "/rahul-protfolio/static/js/2.f5beab20.chunk.js",
     "static/js/2.f5beab20.chunk.js.map": "/rahul-protfolio/static/js/2.f5beab20.chunk.js.map",
     "index.html": "/rahul-protfolio/index.html",
-    "static/css/main.b8f4fe6d.chunk.css.map": "/rahul-protfolio/static/css/main.b8f4fe6d.chunk.css.map",
+    "static/css/main.6be741b6.chunk.css.map": "/rahul-protfolio/static/css/main.6be741b6.chunk.css.map",
     "static/js/2.f5beab20.chunk.js.LICENSE.txt": "/rahul-protfolio/static/js/2.f5beab20.chunk.js.LICENSE.txt",
     "static/media/Resume.5880c86f.pdf": "/rahul-protfolio/static/media/Resume.5880c86f.pdf",
     "static/media/abhay.4b48ceae.png": "/rahul-protfolio/static/media/abhay.4b48ceae.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.d774be36.js",
     "static/js/2.f5beab20.chunk.js",
-    "static/css/main.b8f4fe6d.chunk.css",
+    "static/css/main.6be741b6.chunk.css",
     "static/js/main.7a50c5fa.chunk.js"
   ]
 }
