@@ -196,7 +196,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-cat"></i>
+                        <i class="fa fa-clock"></i>
                     </div>
                     <div className="project-name">
                         Clock
