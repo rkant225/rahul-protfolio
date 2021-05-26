@@ -187,9 +187,24 @@ const Projects = () => {
                         Tom & Jerry
                     </div>
                     <div className="project-description">
-                        I have created this App to manage the customer for my own shop. I have created frontend as well as backend for this app. React JS, Node JS, Material-UI.
+                        This is a simple game which I have built using React JS, CSS and Javascript. I got inspiration to build this app from Chrom's Dino-T-Rex game.
                     </div>
                     <a href="https://rkant225.github.io/tom-and-jerry/" target="_blank">
+                        <div className="btn-view-project">View</div>
+                    </a>
+                </div>
+
+                <div className="project">
+                    <div className="project-icon">
+                        <i class="fa fa-cat"></i>
+                    </div>
+                    <div className="project-name">
+                        Clock
+                    </div>
+                    <div className="project-description">
+                        I have created this App to using CSS, HTML and React JS. This app displays the current time in both Analog and Digital clock. It uses the concept of degree rotation.
+                    </div>
+                    <a href="https://rkant225.github.io/clock/" target="_blank">
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>
