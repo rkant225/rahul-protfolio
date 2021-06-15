@@ -223,6 +223,21 @@ const Projects = () => {
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>
+
+                <div className="project">
+                    <div className="project-icon">
+                        <i class="fa fa-whatsapp"></i>
+                    </div>
+                    <div className="project-name">
+                        Whatsapp Group Chact
+                    </div>
+                    <div className="project-description">
+                        I have created this App to using CSS, HTML and React JS. This app enables user to Chat with there friends in group. App is based on socket.io
+                    </div>
+                    <a href="https://my-whatsapp-app-chatty.netlify.app/" target="_blank">
+                        <div className="btn-view-project">View</div>
+                    </a>
+                </div>
                 
             </div>
         </div>
