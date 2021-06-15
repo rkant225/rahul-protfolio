@@ -31,44 +31,44 @@ const Skills = () => {
                     </div>
                     <div className="my-skills-percentage-container">
                         <div className="technologies">
+                            <span>React JS</span>
+                            <span>90%</span>
+                            <span className="bar" style={{'--percentage' : '90%'}}></span>
+                        </div>
+                        <div className="technologies">
+                            <span>Redux</span>
+                            <span>85%</span>
+                            <span className="bar" style={{'--percentage' : '60%'}}></span>
+                        </div>
+                        <div className="technologies">
+                            <span>Javascript</span>
+                            <span>75%</span>
+                            <span className="bar" style={{'--percentage' : '75%'}}></span>
+                        </div>
+                        <div className="technologies">
                             <span>HTML</span>
+                            <span>80%</span>
+                            <span className="bar" style={{'--percentage' : '80%'}}></span>
+                        </div>
+                        <div className="technologies">
+                            <span>CSS</span>
+                            <span>75%</span>
+                            <span className="bar" style={{'--percentage' : '75%'}}></span>
+                        </div>
+                        <div className="technologies">
+                            <span>Node JS</span>
                             <span>40%</span>
                             <span className="bar" style={{'--percentage' : '40%'}}></span>
                         </div>
                         <div className="technologies">
-                            <span>CSS</span>
+                            <span>Mongo DB</span>
                             <span>35%</span>
                             <span className="bar" style={{'--percentage' : '35%'}}></span>
                         </div>
                         <div className="technologies">
-                            <span>React JS</span>
-                            <span>67%</span>
-                            <span className="bar" style={{'--percentage' : '67%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>Redux-Form</span>
-                            <span>23%</span>
-                            <span className="bar" style={{'--percentage' : '23%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>Asynchronous JS</span>
-                            <span>87%</span>
-                            <span className="bar" style={{'--percentage' : '87%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>Node JS</span>
-                            <span>18%</span>
-                            <span className="bar" style={{'--percentage' : '18%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>Mongo DB</span>
-                            <span>34%</span>
-                            <span className="bar" style={{'--percentage' : '34%'}}></span>
-                        </div>
-                        <div className="technologies">
                             <span>Python</span>
-                            <span>46%</span>
-                            <span className="bar" style={{'--percentage' : '46%'}}></span>
+                            <span>40%</span>
+                            <span className="bar" style={{'--percentage' : '40%'}}></span>
                         </div>
                     </div>
                 </div>

@@ -208,6 +208,21 @@ const Projects = () => {
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>
+
+                <div className="project">
+                    <div className="project-icon">
+                        <i class="fa fa-shuttle-van"></i>
+                    </div>
+                    <div className="project-name">
+                        Vehicle Bidding
+                    </div>
+                    <div className="project-description">
+                        I have created this App to using CSS, HTML and React JS. This app enables user to bid their vehicle for booking. I have used Formik to validate form.
+                    </div>
+                    <a href="https://vahak-vehicle-bidding-app.herokuapp.com/" target="_blank">
+                        <div className="btn-view-project">View</div>
+                    </a>
+                </div>
                 
             </div>
         </div>
