@@ -268,6 +268,21 @@ const Projects = () => {
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>
+
+                <div className="project">
+                    <div className="project-icon">
+                        <i class="fa fa-users-cog"></i>
+                    </div>
+                    <div className="project-name">
+                        Admin Portal
+                    </div>
+                    <div className="project-description">
+                        This is a react JS base application. I have used Reacr Router V6 to implement routing in this application.
+                    </div>
+                    <a href="https://rkant225.github.io/admin_portal_app/" target="_blank" rel="noreferrer">
+                        <div className="btn-view-project">View</div>
+                    </a>
+                </div>
                 
             </div>
         </div>
