@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rahul-protfolio/static/css/main.6be741b6.chunk.css",
-    "main.js": "/rahul-protfolio/static/js/main.e3a3813d.chunk.js",
-    "main.js.map": "/rahul-protfolio/static/js/main.e3a3813d.chunk.js.map",
+    "main.js": "/rahul-protfolio/static/js/main.26f2879d.chunk.js",
+    "main.js.map": "/rahul-protfolio/static/js/main.26f2879d.chunk.js.map",
     "runtime-main.js": "/rahul-protfolio/static/js/runtime-main.d774be36.js",
     "runtime-main.js.map": "/rahul-protfolio/static/js/runtime-main.d774be36.js.map",
     "static/js/2.f5beab20.chunk.js": "/rahul-protfolio/static/js/2.f5beab20.chunk.js",
@@ -10,13 +10,15 @@
     "index.html": "/rahul-protfolio/index.html",
     "static/css/main.6be741b6.chunk.css.map": "/rahul-protfolio/static/css/main.6be741b6.chunk.css.map",
     "static/js/2.f5beab20.chunk.js.LICENSE.txt": "/rahul-protfolio/static/js/2.f5beab20.chunk.js.LICENSE.txt",
-    "static/media/Resume.5c3ba2a0.pdf": "/rahul-protfolio/static/media/Resume.5c3ba2a0.pdf",
+    "static/media/Resume.d29d5adc.pdf": "/rahul-protfolio/static/media/Resume.d29d5adc.pdf",
     "static/media/abhay.4b48ceae.png": "/rahul-protfolio/static/media/abhay.4b48ceae.png",
+    "static/media/akshay.7f4b1adc.jpeg": "/rahul-protfolio/static/media/akshay.7f4b1adc.jpeg",
     "static/media/deep.193199ce.png": "/rahul-protfolio/static/media/deep.193199ce.png",
     "static/media/deepak.a4cb7559.png": "/rahul-protfolio/static/media/deepak.a4cb7559.png",
     "static/media/deepika.bcacd351.png": "/rahul-protfolio/static/media/deepika.bcacd351.png",
     "static/media/dheeraj.8bc14369.png": "/rahul-protfolio/static/media/dheeraj.8bc14369.png",
     "static/media/intro_QR.c4507e31.svg": "/rahul-protfolio/static/media/intro_QR.c4507e31.svg",
+    "static/media/kamlesh.64db1840.jpeg": "/rahul-protfolio/static/media/kamlesh.64db1840.jpeg",
     "static/media/paritosh.4b0ec1d1.png": "/rahul-protfolio/static/media/paritosh.4b0ec1d1.png",
     "static/media/profile-pic-two.0847a8d5.jpeg": "/rahul-protfolio/static/media/profile-pic-two.0847a8d5.jpeg",
     "static/media/rahul.5fcdc3bd.png": "/rahul-protfolio/static/media/rahul.5fcdc3bd.png",
@@ -27,6 +29,6 @@
     "static/js/runtime-main.d774be36.js",
     "static/js/2.f5beab20.chunk.js",
     "static/css/main.6be741b6.chunk.css",
-    "static/js/main.e3a3813d.chunk.js"
+    "static/js/main.26f2879d.chunk.js"
   ]
 }
