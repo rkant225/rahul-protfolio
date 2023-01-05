@@ -68,7 +68,7 @@ const Projects = () => {
                     <div className="project-description">
                         This is another React based application which demonstrate different concepts such as Redux, Routing, Axiox, JWT Authorization, login, Material-UI, Modal. 
                     </div>
-                    <a href="https://place-book-frontend.herokuapp.com/" target="_blank" rel="noreferrer"> 
+                    <a href="https://placebook-frontend.onrender.com/" target="_blank" rel="noreferrer"> 
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>
@@ -84,7 +84,7 @@ const Projects = () => {
                     <div className="project-description">
                         This is a backend server for my <a href="https://place-book-frontend.herokuapp.com/">PlaceBook App</a>. It includes different cool tech such as Node JS, Express JS, Multer, Cors, Middlewares, Routing, JWT token.
                     </div>
-                    <a href="https://place-book-backend.herokuapp.com/" target="_blank" rel="noreferrer">
+                    <a href="https://placebook-backend.onrender.com/" target="_blank" rel="noreferrer">
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>
@@ -174,14 +174,14 @@ const Projects = () => {
                     <div className="project-description">
                         I have created this App to manage the customer for my own shop. I have created frontend as well as backend for this app. React JS, Node JS, Material-UI.
                     </div>
-                    <a href="http://customer-mgmt-sys-frontend.herokuapp.com/customer" target="_blank" rel="noreferrer">
+                    <a href="https://customer-management-system-frontend.onrender.com" target="_blank" rel="noreferrer">
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>
                 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-cat"></i>
+                        <i className="fa fa-cat"></i>
                     </div>
                     <div className="project-name">
                         Tom & Jerry
@@ -196,7 +196,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-clock"></i>
+                        <i className="fa fa-clock"></i>
                     </div>
                     <div className="project-name">
                         Clock
@@ -211,7 +211,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-shuttle-van"></i>
+                        <i className="fa fa-shuttle-van"></i>
                     </div>
                     <div className="project-name">
                         Vehicle Bidding
@@ -219,14 +219,14 @@ const Projects = () => {
                     <div className="project-description">
                         I have created this App to using CSS, HTML and React JS. This app enables user to bid their vehicle for booking. I have used Formik to validate form.
                     </div>
-                    <a href="https://vahak-vehicle-bidding-app.herokuapp.com/" target="_blank" rel="noreferrer">
+                    <a href="https://vehicle-bidding-app.onrender.com/" target="_blank" rel="noreferrer">
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-whatsapp"></i>
+                        <i className="fa fa-whatsapp"></i>
                     </div>
                     <div className="project-name">
                         Whatsapp Group Chact
@@ -234,14 +234,14 @@ const Projects = () => {
                     <div className="project-description">
                         I have created this App to using CSS, HTML and React JS. This app enables user to Chat with there friends in group. App is based on socket.io
                     </div>
-                    <a href="https://my-whatsapp-app-chatty.netlify.app/" target="_blank" rel="noreferrer">
+                    <a href="https://chatty-frontend.onrender.com/" target="_blank" rel="noreferrer">
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-atom"></i>
+                        <i className="fa fa-atom"></i>
                     </div>
                     <div className="project-name">
                         React-Redux Setup
@@ -256,7 +256,7 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-braille"></i>
+                        <i className="fa fa-braille"></i>
                     </div>
                     <div className="project-name">
                         Star Patterns
@@ -271,15 +271,31 @@ const Projects = () => {
 
                 <div className="project">
                     <div className="project-icon">
-                        <i class="fa fa-users-cog"></i>
+                        <i className="fa fa-users-cog"></i>
                     </div>
                     <div className="project-name">
                         Admin Portal
                     </div>
                     <div className="project-description">
-                        This is a react JS base application. I have used Reacr Router V6 to implement routing in this application.
+                        This is a react JS based application. I have used Reacr Router V6 to implement routing in this application.
                     </div>
                     <a href="https://rkant225.github.io/admin_portal_app/" target="_blank" rel="noreferrer">
+                        <div className="btn-view-project">View</div>
+                    </a>
+                </div>
+
+                <div className="project">
+                    <div className="project-icon">
+                        {/* <i className="fa fa-naira-sign"></i> */}
+                        <i className="fa fa-book"></i>
+                    </div>
+                    <div className="project-name">
+                        Next JS Concepts
+                    </div>
+                    <div className="project-description">
+                        This is a Next JS based application. I have created it while learning Next and documented impostant topics so that I can refer them in future.
+                    </div>
+                    <a href="https://book-it-ruby.vercel.app/" target="_blank" rel="noreferrer">
                         <div className="btn-view-project">View</div>
                     </a>
                 </div>

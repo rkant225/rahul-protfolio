@@ -7,6 +7,8 @@ import subhodeep from '../Assets/subhodeep.png';
 import dheeraj from '../Assets/dheeraj.png';
 import deepak from '../Assets/deepak.png';
 import abhay from '../Assets/abhay.png';
+import kamlesh from '../Assets/kamlesh.jpeg';
+import akshay from '../Assets/akshay.jpeg';
 
 const Peers = () => {
       
@@ -99,6 +101,22 @@ const Peers = () => {
                         <div className="peer-name">Abhay</div>
                         <div className="peer-description">
                             Abhay is currently working at Infosys Ltd. as lead .Net developer. His area of expertise is .Net MVC, Web-Api, Microservices, Microsoft Azure.
+                        </div>
+                    </div>
+
+                    <div className="peer-card">
+                        <img style={{height : '4rem', width : '4rem', margin : 'auto', borderRadius : '50%'}} className="peer-image" src={kamlesh} alt="kamlesh"/>
+                        <div className="peer-name">Kamlesh</div>
+                        <div className="peer-description">
+                            Kamlesh is currently working at Capgemini as React developer. His area of expertise is Frontend, React JS, HTML, CSS, Cypress and Angular.
+                        </div>
+                    </div>
+
+                    <div className="peer-card">
+                        <img style={{height : '4rem', width : '4rem', margin : 'auto', borderRadius : '50%'}} className="peer-image" src={akshay} alt="akshay"/>
+                        <div className="peer-name">Akshay</div>
+                        <div className="peer-description">
+                            Akshay is currently working at Capgemini as lead React developer also he manages the team of 8 member. His area of expertise is React JS, Cypress and Angular.
                         </div>
                     </div>
                 </div>
